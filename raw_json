@@ -1,0 +1,47 @@
+{
+   html_attributions : [],
+   results : [
+      {
+         formatted_address : 日本、〒554-0031 大阪府大阪市此花区桜島２丁目１−３３,
+         geometry : {
+            location : {
+               lat : 34.665442,
+               lng : 135.4323382
+            },
+            viewport : {
+               northeast : {
+                  lat : 34.66679182989272,
+                  lng : 135.4336880298927
+               },
+               southwest : {
+                  lat : 34.66409217010727,
+                  lng : 135.4309883701073
+               }
+            }
+         },
+         icon : https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png,
+         id : 32972c08ed8be5705163566ce04dbbb78dbfde40,
+         name : ユニバーサル・スタジオ・ジャパン,
+         photos : [
+            {
+               height : 1333,
+               html_attributions : [
+                  u003ca href="https://maps.google.com/maps/contrib/115096310724349473182/photos"u003eA Google Useru003c/au003e
+               ],
+               photo_reference : CmRaAAAAe-9pNLA_bjdDwZek9MhZQKNEe0aVGVNRiKAKFy4j7s8cvuIEJWqCjahmCHaHcYeMbvKAWHOdUaY9uCSGOJQwhQdvRUrw1Zq3vu1pdRHv15scH3ue46CZrJkwRgM-KfXMEhC2QQGfawPb5F8eqVJwdbP8GhRF4Y6KpKcOihR2J_-GfWVxIgtyvg,
+               width : 2000
+            }
+         ],
+         place_id : ChIJXeLVg9DgAGARqlIyMCX-BTY,
+         plus_code : {
+            compound_code : MC8J+5W 大阪市, 日本、大阪府,
+            global_code : 8Q6QMC8J+5W
+         },
+         rating : 4.5,
+         reference : ChIJXeLVg9DgAGARqlIyMCX-BTY,
+         types : [ amusement_park, point_of_interest, establishment ],
+         user_ratings_total : 42024
+      }
+   ],
+   status : OK
+}
