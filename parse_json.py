@@ -19,11 +19,14 @@ for f in file_data:
         if temp_str == k:
             if data_dict[k] == None:
                 if k != "compound_code":
-                    data_dict[k] = strip_str[key_len + 6:-3] #:と空白、,と改行コードを消す
+                    #データが文字列か数字かで削る文字数を変える
+                    if(strip_str[key_len+5] == '"'):
+                        data_dict[k] = strip_str[key_len + 6:-3] #:と空白と"、,と改行コードを消す
+                    else:
+                        data_dict[k] = strip_str[key_len + 5:-2] #:と空白、
                 else:
                     temp_prefecture = strip_str[key_len + 6:-3].split("、")
                     data_dict[k] = temp_prefecture[-1]
-                print(data_dict[k])
                 print(strip_str,end="")
 
 print("\n------Dict Data------")
